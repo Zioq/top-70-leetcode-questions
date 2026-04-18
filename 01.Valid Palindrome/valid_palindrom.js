@@ -5,7 +5,7 @@
     Given a string s, return true if it is a palindrome, or false otherwise.
 */
 
-/* 1. Bruthe Foce: 
+/* 1. Brute Force: 
     - Save string in the array
     - and save reverse of the array 
     - Compare it both
