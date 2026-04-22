@@ -9,4 +9,10 @@
  : 20260416 ⚠️
 ### Week2
 -  [07. Generate Parentheses (22)](https://leetcode.com/problems/generate-parentheses/description/) : 20260421 ⚠️
--  [08. Permutations (46)](https://leetcode.com/problems/permutations/description/) : 20260422
+-  [08. Permutations (46)](https://leetcode.com/problems/permutations/description/) : 20260422 ⚠️
+
+
+
+
+### Icons
+⚠️ -> need to revisit this later to master it.
