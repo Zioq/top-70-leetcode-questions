@@ -33,7 +33,7 @@ unpicked // what I can still choose
 ```
 👉 If you can’t define state, you can’t solve backtracking problems.
 
-#### 2️⃣ What is my state? - You must define this first
+#### 2️⃣ What are my choices?
 ```
 for (let i = 0; i < unpicked.length; i++)
 ```
