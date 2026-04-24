@@ -11,8 +11,8 @@
 -  [07. Generate Parentheses (22)](https://leetcode.com/problems/generate-parentheses/description/) : 20260421 ⚠️
 -  [08. Permutations (46)](https://leetcode.com/problems/permutations/description/) : 20260422 ⚠️
 
-
-
+## Array Questions
+-  [09. Contains Duplicate (217)](https://leetcode.com/problems/contains-duplicate/description/) : 20260423
 
 ### Icons
 ⚠️ -> need to revisit this later to master it.
