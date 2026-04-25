@@ -13,6 +13,7 @@
 
 ## Array Questions
 -  [09. Contains Duplicate (217)](https://leetcode.com/problems/contains-duplicate/description/) : 20260423
+-  [10. Two Sum (1)](https://leetcode.com/problems/two-sum/description/) : 20260424
 
 ### Icons
 ⚠️ -> need to revisit this later to master it.
