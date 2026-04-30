@@ -9,7 +9,7 @@
 
 
 /* 
-	1. Bruth Force
+	1. Brute Force
 	Sorting two strings and compare it.
 
 	SC: O(n) for storing sorted array

@@ -13,7 +13,7 @@
 */
 
 /* 
-    Bruth Force: 
+    Brute Force: 
     - Use nexted loop
 
     [2,7,11,15] target = 9

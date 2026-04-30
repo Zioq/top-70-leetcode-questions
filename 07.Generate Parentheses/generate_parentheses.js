@@ -4,7 +4,7 @@
 */
 
 /* 
-    1. Bruth Force
+    1. Brute Force
 
     Example 1:
 

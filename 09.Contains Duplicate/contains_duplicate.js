@@ -20,7 +20,7 @@
 */
 
 /* 
-    Bruth Force
+    Brute Force
     [1,2,3,1]
      i     j 
      i = 0 

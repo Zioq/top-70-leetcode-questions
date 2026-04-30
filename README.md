@@ -13,6 +13,7 @@
 -  [10. Two Sum (1)](https://leetcode.com/problems/two-sum/description/) : 20260424
 -  [11. Two Sum II - Input Array Is Sorted (167)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) : 20260425
 -  [12. Move Zeroes (283)](https://leetcode.com/problems/move-zeroes/description/) : 20260426
+-  [13. Best Time to Buy and Sell Stock (121)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock//) : 20260429
 
 ### Icons
 ⚠️ -> need to revisit this later to master it.

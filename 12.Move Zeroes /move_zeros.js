@@ -17,7 +17,7 @@
 
 /* 
 
-    Bruth Force
+    Brute Force
     [0,1,0,3,12]
 
     Condition:
