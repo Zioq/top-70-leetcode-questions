@@ -19,8 +19,8 @@
 
     Condition:
         - maximum profit 
-        - cannot sell past day's buy
-        - to make a profit, future market value should be gigger than the day we bought
+        - We cannot sell before the buy day.
+        - the future price should be greater than the buy price.
 
     [7,1,5,3,6,4]
     ^ 
@@ -33,7 +33,7 @@
     7 > 4 (x)
 
     Day 2 (i=1) profit: 4
-    1 < 5 -> calculation 5-1 = 4 | compare current profit. if current profit is samller than profit, then update current profit
+    1 < 5 -> calculation 5-1 = 4 | compare current profit. if current profit is smaller than profit, then update current profit
     1 < 3 -> calculation 3-1 = 2 | coma
     ...
 
@@ -57,6 +57,37 @@ var maxProfit = function(prices){
     return max_profit
 }   
 
-prices = [7,6,4,3,1]
+/* 
+    How to optimize TC? O(n^2) -> O(n)
+    
+    - Condition
+    1. Single loop
+    2. Check the current price + how much make the profit if we sell it today
+        profit = today price - past price 
+        how to calculate maximum profit of today?
+        max_profit = today price - the most cheapest price
 
-console.log(maxProfit(prices))
+        🔥 Remember only cheapest one
+        
+    [7,1,5,3,6,4] -> 
+    [7,1,1,1,1,1] -> running minimum
+    [-7,0,4,2,5,3] -> profit list 
+    
+    TC: O(n)
+    SC: O(1)
+*/
+var maxProfit_2 = function(prices) {
+    let max_profit = 0
+    let min_price = prices[0]
+    for(let i = 0; i<prices.length; i++) {
+        min_price = Math.min(min_price, prices[i])
+        max_profit = Math.max(max_profit, prices[i]- min_price)
+    }
+
+    return max_profit
+}
+
+
+
+prices = [7,1,5,3,6,4]
+console.log(maxProfit_2(prices))
